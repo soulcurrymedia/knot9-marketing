@@ -543,7 +543,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:#FF6700;
+	/*background-color:#FF6700;*/
 	opacity:0.7;
 }
 
@@ -1327,6 +1327,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	to { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
 }
 
+
+/* CUSTOM CSS BY MIHIR*/
+
 .logo-branding {
 	vertical-align: middle;
   text-align: center;
@@ -1334,4 +1337,62 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   font-family: serif;
   color: white;
   margin-top: 16px !important;
+}
+
+.logo-brandin-footer {
+	vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  color: black;
+  margin-top: 16px !important;
+}
+
+.offerings_info h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Bitter', serif;
+  color: #f05a3f;
+}
+
+.highligt_color {
+	 text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Bitter', serif;
+  color: #f05a3f;
+}
+
+
+.offerings_info h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Bitter', serif;
+    color: #f05a3f;
+}
+
+.offering-section {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.panel-body ul {
+    list-style: disc;
+    font: 14px/22px "News706BT-RomanC", Georgia;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+#contact-cta{
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.contact-section{
+	    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
