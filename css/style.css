@@ -1391,8 +1391,71 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	border-bottom: 1px solid #EBEBEB;
 }
 
-.contact-section{
-	    position: relative;
-    padding-top: 80px;
-    padding-bottom: 80px;
+.contact-section {
+  position: relative;
+	padding-top: 80px;
+  padding-bottom: 80px;
 }
+
+.course-section-hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-color: #EBEBEB;	
+}
+
+.course-section {
+	position: relative;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+#what-will-you-learn{
+  color: #666666;
+  padding: 1.8em;
+  background-color: #d8dabe;
+}
+
+
+.course-section .panel-group {
+    margin-top: 55px;
+    margin-bottom: 0px;
+    border: 1px solid #e7efea;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.0);
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+}
+
+.course-section .panel {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+    background: none;
+    box-shadow: none;
+}
+
+.course-section .panel-title a {
+    display: block;
+    color: #666;
+    padding: 25px 115px 25px 25px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.editor-content ol {
+    margin-left: 16px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.editor-content ol li {
+    font-size: 16px !important;
+    color: #666 !important;
+    letter-spacing: 0px !important;
+    line-height: 28px !important;
+    list-style: decimal;
+}
+
