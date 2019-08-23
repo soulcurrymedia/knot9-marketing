@@ -151,7 +151,7 @@ blockquote:before{
 	bottom:0;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#374050), to(#798696));
 	background-image: linear-gradient(to bottom, #374050 0%, #798696 100%);
-	opacity: 0.7;
+	opacity: 0.4;
 }
 
 /* --- Buttons --- */
